@@ -218,7 +218,7 @@ jobs:
         run: python ../main-scripts/.github/scripts/ai_review.py
       
       - name: 📤 上传审查结果
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: ai-review-result
