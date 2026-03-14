@@ -24,7 +24,7 @@ jobs:
 
     steps:
       # Step 1: 检出代码，fetch-depth: 0 获取完整历史（用于读取已有 tag）
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
